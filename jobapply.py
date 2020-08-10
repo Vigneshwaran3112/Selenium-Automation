@@ -50,14 +50,14 @@ for link in data:
     
     try:
 
-        number = driver.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/div/form/div/div[1]/div[3]/div[2]/div/div/input').send_keys('9566701980')
+        number = driver.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/div/form/div/div[1]/div[3]/div[2]/div/div/input').send_keys('your mobile number')#enter number
 
         try:
 
             nxt = driver.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/div/form/footer/div[2]/button').click()
             time.sleep(2)
 
-            upload = driver.find_element_by_name('file').send_keys('C:/Users/vignesh/Desktop/selenium/inba.docx')
+            upload = driver.find_element_by_name('file').send_keys('C:/Users/... your resume file location path')#enter your resume file location path from system
             time.sleep(2)
 
             nxt2 = driver.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/div/form/footer/div[2]/button[2]').click()
@@ -66,7 +66,7 @@ for link in data:
         except:
 
             try:
-                upload = driver.find_element_by_name('file').send_keys('C:/Users/vignesh/Desktop/selenium/inba.docx')
+                upload = driver.find_element_by_name('file').send_keys('C:/Users/... your resume file location path')#enter your resume file location path from system
                 time.sleep(2)
             except:
                 continue
