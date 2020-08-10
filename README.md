@@ -9,5 +9,5 @@ Apply jobs in LinkedIn using Python Selenium webdriver
 6. And store the scraped data like jobs details into excel sheet format
 7. jobapply.py is used to login your linkedin account and exact job details from saved excel sheet.
 8. then it convert into python list format
-9. And open links and apply each jobs and automatically fill data like name, and upload your resume
+9. And open links and apply each jobs and automatically fill data like mobile number and upload your resume
 10. finish the program process
