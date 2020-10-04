@@ -88,6 +88,7 @@ df['Company Name'] = companyname
 df['Location'] = location
 df['Job Apply Link'] = joblink
 
+#filename
 filename = 'LinkedInJobs.xlsx'
 
 #convert dataframe to excel format
