@@ -1,7 +1,7 @@
 # Selenium-Automation
 Apply jobs in LinkedIn using Python Selenium webdriver
 
-1. first download chrome webdriver from internet and placed the chromeWebdriver.exe into your python file path.
+1. first download [firefox browser](https://www.mozilla.org/pt-BR/firefox/new/) and install, or [chrome webdriver](https://chromedriver.chromium.org/downloads) from internet and placed the chromeWebdriver.exe into your python file path.
 2. then, execute the programs
 3. first, run searchJob.py file then run jobapply.py file
 4. searchJob.py is used to login your linkedin account and search you wanted jobs. 
