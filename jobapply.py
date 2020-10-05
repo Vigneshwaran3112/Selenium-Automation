@@ -9,8 +9,15 @@ import openpyxl
 data = []
 c = 0
 
-# setup chrome webdriver
-driver = webdriver.Chrome()
+# setup webdriver
+webdriver_selected = input("Type 1 to use Chrome or 2 to use Firefox:")
+switch(webdriver_selected)
+if webdriver_selected == "1":
+    driver = webdriver.Chrome()
+elif webdriver_selected == "2":
+    driver = webdriver.Firefox()
+else:
+    exit()
 
 #maximize the chrome brower window 
 driver.maximize_window()
