@@ -11,10 +11,13 @@ c = 0
 
 # setup webdriver
 webdriver_selected = input("Type 1 to use Chrome or 2 to use Firefox:")
+switch(webdriver_selected)
 if webdriver_selected == "1":
     driver = webdriver.Chrome()
-else:
+elif webdriver_selected == "2":
     driver = webdriver.Firefox()
+else:
+    exit()
 
 #maximize the chrome brower window 
 driver.maximize_window()
