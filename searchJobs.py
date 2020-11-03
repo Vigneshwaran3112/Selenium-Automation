@@ -1,6 +1,7 @@
 #packages are imported
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 import openpyxl
@@ -8,7 +9,7 @@ import openpyxl
 data = []
 
 # setup chrome webdriver
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #maximize the chrome brower window
 driver.maximize_window()
